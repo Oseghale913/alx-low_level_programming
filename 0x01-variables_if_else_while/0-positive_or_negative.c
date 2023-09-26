@@ -4,12 +4,13 @@
 
 /**
  *  main - prints if number is positive, zero or negative
- * Return: Always 0 (Success)
+ * Return: Always (Success)
  *
  */
 
 int main(void)
 {
+
 	int n;
 
 	srand(time(0));
@@ -28,4 +29,5 @@ int main(void)
 	printf("%d is negative\n", n);
 	}	
 	return (0);
+
 }
