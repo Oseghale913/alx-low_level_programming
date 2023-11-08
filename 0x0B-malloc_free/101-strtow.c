@@ -24,11 +24,12 @@ void print_tab(char **tab)
  *
  * Return: 1 if an error occured, 0 otherwise
  */
+
 int main(void)
 {
 	char **tab;
 
-	tab = strtow("ALX School #cisfun");
+	tab = strtow("	ALX School 	#cisfun	");
 	if (tab == NULL)
 	{
 		printf("Failed\n");
