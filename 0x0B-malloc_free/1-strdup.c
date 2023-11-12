@@ -5,7 +5,7 @@
  * _strdup - Duplicate a string
  * @str: the string to duplicate
  *
- * Return: the string duplicate
+ * Return: the syring duplicate
  */
 
 char *_strdup(char *str)
@@ -25,7 +25,7 @@ char *_strdup(char *str)
 
 	if (s == NULL)
 		return (NULL);
-	
+
 	while (a < i)
 	{
 		s[a] = str[a];
@@ -35,4 +35,3 @@ char *_strdup(char *str)
 	s[a] = '\0';
 	return (s);
 }
-
